@@ -1,0 +1,369 @@
+
+#top {
+	background-image:url("https://wallpapersite.com/images/pages/pic_w/10523.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	height:600px;
+	width:100%;
+}
+
+
+.header {
+	display:flex;
+	justify-content: space-around;
+	width:100%;
+	height:auto;
+	border-bottom:2px solid #c332c2;
+	align-items: center;
+	background:#00134d;
+	opacity:0.6;
+}
+
+.logo {
+	font-size:25px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	font-family: serif;
+	line-height: 10vh;
+	color:#fff;
+}
+
+ul {
+	width:70%;
+	list-style: none;
+	padding:0;
+	margin:0;
+	display:flex;
+}
+
+li {
+	width:150px;
+	color:azure;
+	display:flex;
+}
+
+#content {
+	position: absolute;
+	left: 0;
+	top: 40%;
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	color:black;
+	line-height: 45px;
+}
+
+#content h3 {
+	width:100%;
+	background:black;
+	opacity:0.6;
+	color:azure;
+	height:50px;
+	line-height: 50px;
+}
+
+#content h1 {
+	color:azure;
+	font-family: Arial;
+}
+
+#quotes {
+	width:auto;
+	height:auto;
+	display:flex;
+	order:1;
+	flex-direction: column;
+}
+
+.texts {
+	margin-top:30px;
+}
+
+.texts span {
+	color:black;
+}
+
+.texts p {
+	padding:3px;
+	font-family: Arial;
+	padding:1px;
+	width:100%;
+	color:azure;
+	border-bottom:1px solid azure;
+	opacity:0.7;
+	text-shadow: 1px 1px blue;
+}
+
+#skiing {
+	margin-top:2px;
+	width:100%;
+	background:#556677;
+	height:auto;
+	border-bottom:1px solid red;
+}
+
+#skiing h2 {
+	text-align: center;
+	border-bottom:1px solid azure;
+	background:black;
+	color:azure;
+	padding:3px;
+}
+
+#skiing p {
+	text-align: center;
+	font-size:16px;
+	font-family: Arial,Helvetica , serif;
+	background:#000000;
+	color:azure;
+	height:auto;
+	line-height: 30px;
+}
+
+h2 span {
+	font-size:45px;
+	text-shadow: 1px 2px red;
+}
+
+#resorts {
+	width:100%;
+	height:auto;
+	background-color:azure;
+	box-sizing: border-box;
+}
+
+#resorts h2 {
+	text-align: center;
+	background:#332244;
+	opacity:.8;
+	color:azure;
+	line-height:45px;
+}
+
+#resorts {
+	width:98%;
+	height:auto;
+	background-size:cover;
+	background-attachment: fixed;
+	margin-top:2px;
+}
+
+#resorts p {
+	width:95%;
+	border-bottom:2px solid azure;
+	border-radius:2px;
+	margin-bottom:2px;
+	padding:1px;
+	box-shadow: 2px 2px #f000;
+}
+
+
+#resorts .chamonix {
+	background-image:url("https://www.telegraph.co.uk/content/dam/Travel/ski/Resorts/chamonix-lead-copyright-Tim-Hughes-xlarge.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+.chamonix h2 {
+	text-align: center;
+	width:100%;
+}
+
+.chamonix p {
+	background:#e6e4eb;
+	opacity:0.6;
+	padding:5px;
+	border-bottom:1px solid azure;
+	text-align: center;
+	font-family: Helvetica;
+	margin-top:25%;
+}
+
+#chamonix img {
+	border:1px solid black;
+	padding:2px;
+	margin-top:5px;
+	width:99%;
+}
+
+#resorts .kopaonik {
+	background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Kopaonik_ski_staza_-_panoramio.jpg/1024px-Kopaonik_ski_staza_-_panoramio.jpg");
+	background-size:cover;
+	width:99%;
+	height:600px;
+	margin-top:2px;
+	background-attachment: fixed;
+}
+
+#kopaonik img {
+	border:1px solid black;
+	padding:2px;
+	margin-top:5px;
+}
+
+.kopaonik p {
+	background:#334466;
+	opacity:0.6;
+	border-bottom:1px solid azure;
+	text-align: center;
+	font-family: Helvetica;
+	color:azure;
+	margin-top:23%;
+	margin-left:1%;
+	padding:5px;
+}
+
+#resorts .jahorina {
+	background-image:url("https://www.supernovatravel.rs/media/image/62/t3_91091.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	width:99%;
+	height:700px;
+	margin-top:5px;
+}
+
+.jahorina h2 {
+	text-align: center;
+}
+
+.jahorina p {
+	background:#334466;
+	opacity:0.6;
+	border-bottom:1px solid azure;
+	text-align: center;
+	font-family: Arial , serif;
+	color:azure;
+	margin-top:35%;
+	margin-left:1%;
+	padding:2px;
+}
+
+
+.jahorina img {
+	border:1px solid black;
+	padding:3px;
+	margin-top:3px;
+	margin-left:5px;
+}
+
+#resorts .aspen {
+	background-image:url("http://www.privatetradewinds.com/wp-content/uploads/2016/04/Aspen-Snowmass-Colorado.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	width:99%;
+	height:800px;
+	margin-top:5px;
+}
+
+.aspen p {
+	background:#334466;
+	opacity:0.6;
+	border-bottom:1px solid azure;
+	text-align: center;
+	font-family: Arial , serif;
+	color:azure;
+	margin-top:35%;
+	margin-left:1%;
+	padding:2px;
+}
+
+.aspen h2 {
+	text-align: center;
+}
+
+#resorts .lake-louise {
+	background-image:url("https://www.snow-forecast.com/system/images/20893/large/Lake-Louise.jpg?1568775995");
+	background-size:cover;
+	background-attachment: fixed;
+	width:99%;
+	height:700px;
+	margin-top:5px;
+}
+
+.lake-louise h2 {
+	text-align: center;
+}
+
+.lake-louise p {
+	background:#334466;
+	opacity:0.6;
+	border-bottom:1px solid azure;
+	text-align: center;
+	font-family: Arial , serif;
+	color:azure;
+	margin-top:35%;
+	margin-left:1%;
+	padding:2px;
+}
+
+.lake-louise img {
+	border:1px solid black;
+	padding:2px;
+	margin-top:3px;
+}
+
+#resorts .beaver-creek {
+	background-image:url("https://www.lechzuers.com/app/uploads/2018/11/d9jgfpb-1200x750.jpg");
+	background-size:cover;
+	background-attachment: fixed;
+	width:99%;
+	height:700px;
+	margin-top:5px;
+}
+.beaver-creek h2 {
+	text-align: center;
+	color:azure;
+}
+
+.beaver-creek p {
+	background:#523424;
+	opacity:0.8;
+	border-bottom:1px solid azure;
+	text-align: center;
+	font-family: Arial , serif;
+	color:azure;
+	margin-top:35%;
+	margin-left:1%;
+	padding:2px;
+}
+
+.beaver-creek img {
+	border:1px solid black;
+	padding:2px;
+	margin-top:3px;
+}
+
+
+@media screen and (max-width:768px) {
+	.header {
+		width:100%;
+		flex-direction: column-reverse;
+		margin:auto;
+	}
+
+	ul {
+		border-bottom:1px solid azure;
+		width:100%;
+		display:flex;
+	}
+
+	#content {
+		margin:0 auto;
+		display:grid;
+		height:auto;
+	}
+
+	#resorts{
+		width:100%;
+		display:flex;
+		height:auto;
+	}
+
+	#resorts img{
+	  background-position:center;
+	}
+
+	#resorts p {
+		margin:auto;
+	}
+}
